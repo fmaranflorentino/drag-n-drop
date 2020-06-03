@@ -1,4 +1,3 @@
-namespace App {
   export function AutoBind(
     _target: any,
     _methodname: string | Symbol,
@@ -15,4 +14,4 @@ namespace App {
 
     return adjDescriptor;
   }
-}
+  
